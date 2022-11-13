@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cms
+Version: 0.0.2
+Summary: Eraple CMS (Content Management System)
+Home-page: https://www.eraple.com/
+Author: Eraple
+Author-email: care@eraple.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Eraple CMS
+
+A content management system.
+

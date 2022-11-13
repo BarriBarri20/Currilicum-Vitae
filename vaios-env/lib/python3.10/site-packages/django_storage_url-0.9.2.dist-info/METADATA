@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: django-storage-url
+Version: 0.9.2
+Summary: URL-based Django storage configuration
+Home-page: https://github.com/divio/django-storage-url
+Author: Jonathan Stoppani
+Author-email: jonathan.stoppani@divio.com
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+License-File: LICENSE
+Requires-Dist: django (>=2.2)
+Requires-Dist: django-storages
+Requires-Dist: furl
+
+==================
+django-storage-url
+==================
+
+|pypi| |build| |coverage|
+
+URL-based Django storage configuration management.
+
+An implementation can be viewed on `aldryn-django <https://github.com/divio/aldryn-django/blob/support/3.1.x/aldryn_django/storage.py#L13>`_.
+
+
+.. |pypi| image:: https://badge.fury.io/py/django-storage-url.svg
+    :target: http://badge.fury.io/py/django-storage-url
+.. |build| image:: https://travis-ci.org/divio/django-storage-url.svg?branch=master
+    :target: https://travis-ci.org/divio/django-storage-url
+.. |coverage| image:: https://codecov.io/gh/divio/django-storage-url/branch/master/graph/badge.svg
+    :target: https://codecov.io/gh/divio/django-storage-url
+
+.. |python| image:: https://img.shields.io/badge/python-3.5+-blue.svg
+    :target: https://pypi.org/project/django-storage-url/
+.. |django| image:: https://img.shields.io/badge/django-2.2,%203.0,%203.1-blue.svg
+    :target: https://www.djangoproject.com/
+
+
+Running tests
+=============
+
+Tests can be run via ``tox``.

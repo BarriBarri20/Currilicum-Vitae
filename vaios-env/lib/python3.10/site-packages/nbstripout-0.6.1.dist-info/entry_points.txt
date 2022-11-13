@@ -1,0 +1,2 @@
+[console_scripts]
+nbstripout = nbstripout._nbstripout:main

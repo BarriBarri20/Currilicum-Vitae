@@ -1,0 +1,6 @@
+chardet
+deprecated
+packaging
+
+[flask]
+flask
